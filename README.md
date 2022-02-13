@@ -1,4 +1,4 @@
-![My image](../portfolio2/assets/images/Screenshot 2022-02-13 at 02.41.19.png)
+<img src="/csfree87/portfolio2/assets/images/demo.png" alt="Alt text" title="Optional title">
 
 Features
 
