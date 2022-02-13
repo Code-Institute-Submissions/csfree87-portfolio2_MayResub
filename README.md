@@ -48,6 +48,8 @@ Basic structures followed or inspired by links below. Attempts to avoid copy and
 https://fantacydesigns.com/quiz-application/
 https://mycolor.space/gradient3
 https://www.codegrepper.com/code-examples/javascript/how+to+add+timer+to+quiz+in+java+script
+google fonts
+fontawesome 
 
 
 Media
