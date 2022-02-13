@@ -69,7 +69,7 @@ const quizData = [
 ];
 
 /**
- * Quiz loading and operating functions and scoring functions
+ * Quiz loading and operating functions and scoring functions, tutorial by Fantacy Designs
  */
 
  const quiz = document.getElementById('quiz');
@@ -114,7 +114,7 @@ const quizData = [
      return answer;
  }
 /**
- * Creates function to show user quiz score and create click event for reload when finished
+ * Creates function to show user quiz score and create click event for reload when finished by Fantacy designs
  */
  submitBtn.addEventListener('click', () => {
     const answer = getSelected();
@@ -132,8 +132,26 @@ const quizData = [
             quiz.innerHTML = `
                 <h2>You answered ${score}/${quizData.length} questions correctly</h2>
 
-                <button onclick="location.reload()">Reload</button>
+                <button onclick="location.reload()">Try Again</button>
             `;
         }
     }
 });
+
+/**
+ * Timer function to stop quiz if time runs out, structure from CodeGrepper.com
+ */
+
+var count = 80;
+var interval = setInterval(function(){
+ 
+  document.getElementById('count').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('count').innerHTML='Done';
+    // or...
+    alert("You're out of time!");
+    window.reload
+  }
+}, 1000);
