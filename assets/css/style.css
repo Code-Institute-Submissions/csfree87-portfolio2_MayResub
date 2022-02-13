@@ -12,14 +12,15 @@ body {
   font-family: 'Schoolbell', cursive;
   margin-left: 100px;
 }
+/**
+*   Below adds styling to main content of mainpage with focus on centering and font styling
+**/
 
 .quiz-container {
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
   overflow: hidden; 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .quiz-header {
@@ -74,6 +75,10 @@ button {
   border: 20px;
 }
 
+/**
+*   Below adds styling and responsive effects on buttons and timer
+**/
+
 button:hover {
   background-color: #732d91;
 }
@@ -92,3 +97,86 @@ button:focus {
   position: fixed;
   padding-top: 650px; 
 }
+
+/* --------- Media queries */
+
+@media (max-width: 844px) {
+    body {
+      width: fit-content;
+      margin: 0;
+    }
+  
+    .quiz-container {
+      width: fit-content;
+      margin-left: 55px;
+    }
+  
+    .quiz-header {
+      width: fit-content;
+    }
+  
+    #count {
+      color: whitesmoke;
+    }
+  
+    ul {
+      padding-left: 150px;
+    }
+  
+    button {
+      margin-left: 0px;
+    }
+  
+    h1, h2, ul, label {
+      width: fit-content;
+      text-align: center;
+    }
+  
+    }
+  
+    @media (max-width: 390px) {
+      .quiz-container {
+        width: fit-content;
+        height: 75%;
+        width: 90%;
+        margin: 0;
+      }
+    
+      .quiz-header {
+        width: fit-content;
+        font-size: 16px;
+        padding-top: 0; 
+      }
+  
+      h1 {
+        padding-bottom: 150px;
+        font-size: 21px;
+        padding-top: 100px;
+      }
+  
+      button {
+        margin-left: 0;
+      }
+  
+      #count {
+        color: whitesmoke;
+        padding-top: 400px;
+      }
+    
+      h2, label{
+        width: fit-content;
+        text-align: center;
+      }
+  
+      ul {
+        width: fit-content;
+        text-align: center;
+        padding-left: 0;
+      }
+  
+      body {
+        width: fit-content;
+        margin: 0;
+      }
+    
+    }
