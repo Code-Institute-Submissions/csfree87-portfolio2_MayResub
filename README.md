@@ -1,4 +1,4 @@
-<img src="/csfree87/portfolio2/assets/images/demo.png" alt="Alt text" title="Optional title">
+![This is an image](/assets/images/demo.png)
 
 Features
 
