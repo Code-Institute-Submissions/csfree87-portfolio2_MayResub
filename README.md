@@ -13,7 +13,7 @@ This is a Harry Potter Fan Quiz made for my second portfolio project highlightin
 
     -   #### First Time Visitor Goals
 
-          1. As a First Time Visitor, I want to easily understand how to interact with the quiz and to have fun.
+          1. As a First Time Visitor, I want to understand easily how to interact with the quiz and to have fun.
 
                 1. Upon entering the site, users are automatically greeted with a clean and easily readable site with a harry potter game quiz.
                 2. The user can select the answer that fits the question and hit submit. 
@@ -31,7 +31,7 @@ This is a Harry Potter Fan Quiz made for my second portfolio project highlightin
     -   #### Typography
         -   The Schoolbell font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Schoolbell is a fun, quirky font used for appropriate styling for a Harry Potter quiz.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It is also relavant to the theme of the site.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It is also relevant to the theme of the site.
 
 
 ## Features
@@ -42,7 +42,7 @@ This is a Harry Potter Fan Quiz made for my second portfolio project highlightin
 
 -   Interactive elements such as quiz answers, submit button. 
 
--   Timer starting at 80 seconds
+-   Timer starts at 80 seconds
 
 -   Scoring function at end of quiz
 
@@ -65,11 +65,11 @@ This is a Harry Potter Fan Quiz made for my second portfolio project highlightin
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the project's code after being pushed from Git.
 1. [MyColor:](https://mycolor.space/gradient3)
     - Used to create color gradients seen on site
 1. [FantacyDesigns:](https://fantacydesigns.com/quiz-application/)
-    - Design insporiation for quiz layout
+    - Design inspiration for quiz layout
 
 ## Testing
 
@@ -97,7 +97,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+    - Alternatively, Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
