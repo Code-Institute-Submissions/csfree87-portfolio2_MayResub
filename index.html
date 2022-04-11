@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,8 +11,6 @@
     <title>Potter Quiz</title>
   </head>
   <body>
-          <!-- Wand and Hat logos from fontawesome -->
-
     <h1><i class="fa-solid fa-wand-magic-sparkles"></i>Harry Potter Fan Quiz<i class="fa-solid fa-hat-wizard"></i></h1>
 <!-- Quiz body style inspired by FantacyDesigns, built by hand-->
     <div class="quiz-container" id="quiz">
@@ -21,28 +18,28 @@
         <h2 id="question">Question text</h2>
         <ul>
           <li>
-            <button name="answer" id="a" class="answer">
+            <input type="radio" name="answer" id="a" class="answer">
             <label for="a" id="a_text">Question</label>
           </li>
 
           <li>
-            <button name="answer" id="b" class="answer">
+            <input type="radio" name="answer" id="b" class="answer">
             <label for="b" id="b_text">Question</label>
           </li>
 
           <li>
-            <button name="answer" id="c" class="answer">
+            <input type="radio" name="answer" id="c" class="answer">
             <label for="c" id="c_text">Question</label>
           </li>
 
           <li>
-            <button name="answer" id="d" class="answer">
+            <input type="radio" name="answer" id="d" class="answer">
             <label for="d" id="d_text">Question</label>
           </li>
         </ul>
       </div>
       <!-- Submit button for quiz-->
-      
+
       <button id="submit">Submit</button>
     </div>
     <!-- Timer for quiz -->

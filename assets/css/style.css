@@ -57,6 +57,7 @@ ul li {
   font-size: 25px;  
   margin: 1rem 0;
   height: 58px;
+  width: 100%;
 }
 
 ul li label {
