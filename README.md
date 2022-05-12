@@ -70,6 +70,9 @@ This is a Harry Potter Fan Quiz made for my second portfolio project highlightin
     - Used to create color gradients seen on site
 1. [FantacyDesigns:](https://fantacydesigns.com/quiz-application/)
     - Design inspiration for quiz layout
+1. [FavIcon:](https://favicon.io/favicon-generator/)
+    - FavIcon genator used
+
 
 ## Testing
 
@@ -78,12 +81,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   W3C CSS Validator ![This is an image](/assets/images/cssvalid.png) - No issues
 -   W3C HTML Validator ![This is an image](/assets/images/htmlvalid.png) - No issues
 -   W3C JSHint  ![This is an image](/assets/images/jshintvalid.png) - 18 warnings relating to const and let relating to browser versiona, however, none seem to be functionally problematic. 
-
-###  Testing
-
 -   The Website was tested on Google Chrome, Mozilla Firefox, and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, and iphone 12 pro.
 -   Friends and family members were asked to review the site and play the game and to point out any bugs and/or user experience issues.
+-   Testing of ability to select a quiz answer ![This is an image](/assets/images/selection.png) - No issues
+-   Testing of timer, counts down from 80 seconds ![This is an image](/assets/images/timer.png) - No issues
+-   Testing of ability to try quiz again upon completion ![This is an image](/assets/images/try_again.png) - No issues
 
 ### Known Bugs
 
